@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black"
+    android:gravity="center"
+    android:minHeight="240dp"
+    android:minWidth="260dp"
+    android:orientation="vertical">
+
+
+
+    <com.DeviceTest.NumberProgressBar
+        android:gravity="center"
+        android:id="@+id/number_progress"
+        android:layout_width="240dp"
+        android:layout_height="150dp"
+         />
+
+    <TextView
+        android:id="@+id/update_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textSize="16sp"
+        android:textColor="@drawable/white"
+        android:text="@string/tesss" />
+    <Button
+        android:id="@+id/busss"
+        android:text="@string/canclll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>
